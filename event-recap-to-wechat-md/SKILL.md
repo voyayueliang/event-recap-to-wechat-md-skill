@@ -1,19 +1,21 @@
 ---
 name: event-recap-to-wechat-md
-description: 将活动录音、活动回放、活动结束后的口述复盘、同场活动公开报道调研、合作伙伴已发布记录、现场照片、海报、截图和精选图片整合成可发布的公众号 Markdown 图文草稿。Use when the user asks to 活动复盘转公众号, 活动录音整理成推文, 调研同一场活动已发布报道, 结合合作伙伴记录和图片出 md, 活动传播稿, 沙龙/工作坊/圆桌/直播活动纪要转公众号, or produce publish-ready WeChat Markdown with image placement, captions, external-source research, public-boundary checks, and CTA.
+description: 将活动录音、活动回放、活动结束后的口述复盘、同场活动公开报道调研、合作伙伴已发布记录、现场照片、海报、截图和精选图片，整合成可发布的公众号 Markdown 图文稿、会后传播包、社区记忆包或活动组织者 AI 内容基础设施。Use when the user asks to 活动复盘转公众号, 活动录音整理成推文, 调研同一场活动已发布报道, 结合合作伙伴记录和图片出 md, 活动传播稿, 沙龙/工作坊/圆桌/直播活动纪要转公众号, 社区活动基础设施, event organizer AI infrastructure, post-event content OS, or produce publish-ready Markdown with image placement, external-source research, public-boundary checks, asset recovery, and CTA.
 ---
 
 # Event Recap To WeChat Markdown
 
-Use this skill to turn mixed event material into a ready-to-edit WeChat article draft. The goal is not a neutral event summary; it is a publishable传播稿 that preserves the现场感, names the public value of the event, integrates public reports and partner references responsibly, and places selected images in the Markdown body.
+Use this skill to turn mixed event material into ready-to-edit public outputs: a WeChat article draft, post-event content pack, community memory pack, partner/sponsor recap, or lightweight AI infrastructure layer for event organizers. The goal is not a neutral event summary; it is a source-aware传播与资产回收 workflow that preserves the现场感, names the public value of the event, integrates public reports and partner references responsibly, and places selected images in the narrative.
 
 For final drafts, always apply `references/ai-collaboration-editorial-principles.md`. These principles protect the user's voice, reduce AI味, keep claims evidence-based, and prevent the agent from crossing public/private or partner boundaries.
 
-Also apply `references/content-creation-principles.md` for the broader content creation principles: real voice, scene before concept, evidence before fluency, expression/experiment tracks, platform fit, and asset recovery.
+Also apply `references/content-creation-principles.md` for broader content creation principles: real voice, scene before concept, evidence before fluency, expression/experiment tracks, platform fit, and asset recovery.
+
+When the user frames the work as a tool for communities, event organizers, ecosystem builders, recurring salons, or partner-led events, apply `references/community-event-infrastructure.md`. In that mode, produce reusable event infrastructure outputs, not only a single article.
 
 When the user mentions that the event already has public reports, media coverage, partner posts, WeChat articles, official recaps, social posts, or "网上已经有人发了", use live web research and apply `references/external-report-research.md` before drafting. Current external coverage is time-sensitive; do not rely on memory.
 
-If the source is only a raw transcript or recording with no publication goal yet, use an audio-to-article or transcript-cleanup workflow first if available. Use this skill when the user wants a finished activity article, especially when they provide a post-event oral debrief, partner notes, and images.
+If the source is only a raw transcript or recording with no publication goal yet, use an audio-to-article or transcript-cleanup workflow first if available. Use this skill when the user wants a finished activity article or event content package, especially when they provide a post-event oral debrief, partner notes, public reports, and images.
 
 ## Default Stance
 
@@ -23,6 +25,7 @@ If the source is only a raw transcript or recording with no publication goal yet
 - Treat partner-published records as references, not as copy to rewrite or silently absorb.
 - Treat public online reports as research sources: useful for fact-checking, angles, public context, and attribution, but not as language to copy.
 - Treat selected images as part of the narrative structure, not decoration.
+- Treat every substantial event as potential community infrastructure: memory, publication, relationship follow-up, partner proof, and reusable assets.
 - Produce the smallest useful output, but default to a Markdown draft when the user asks to "直接出 md", "排版好", "可发布", or "公众号稿".
 - Do not fabricate attendance numbers, speaker intent, audience reactions, quotes, partner positions, or future plans.
 - Preserve uncertainty, hesitation, discomfort, and relationship care when they are part of the user's real judgment.
@@ -36,6 +39,7 @@ If the source is only a raw transcript or recording with no publication goal yet
    - External research need: whether to search media reports, partner/organizer pages, WeChat articles, social posts, press releases, or event pages.
    - Images: cover candidate, scene photos, speaker photos, audience/action photos, artifacts, screenshots, posters.
    - Boundaries: public, semi-public, off-record, needs consent, anonymize, do not mention.
+   - Infrastructure need: single article, 24-hour recap pack, partner/sponsor pack, community memory pack, or asset recovery pack.
 2. Ask only for blockers. If details are missing but the article can be drafted, continue and add them to `发布前确认`.
 3. Run external report research when needed:
    - Use `references/external-report-research.md` when the user says there are public reports, when the activity involves a public brand or institution such as AMD, or when facts/positioning need current verification.
@@ -54,6 +58,9 @@ If the source is only a raw transcript or recording with no publication goal yet
    - `伙伴联动文`: emphasize cross-organization collaboration, shared problem, and mutual value.
    - `品牌/机构会后报道`: synthesize official facts, public reports, and the user's现场观察 without sounding like a press release.
    - `下场预告文`: use this event as proof for a next workshop, community action, recruitment, or collaboration.
+   - `会后传播包`: create one main article plus 3-5 reusable short outputs.
+   - `社区记忆包`: preserve questions, scenes, learning, relationship notes, and reusable source cards for future events.
+   - `伙伴/赞助方回顾包`: show partner contribution, public value, evidence, and next collaboration possibilities with careful attribution.
 6. Reconcile sources:
    - Compare partner records with the user's memory and the recording.
    - Compare public reports with the user's memory, event facts, and partner records.
@@ -66,6 +73,7 @@ If the source is only a raw transcript or recording with no publication goal yet
    - Key scene or quote for each section.
    - Image placement plan.
    - External-source usage plan: cite, paraphrase, fact-check only, or do not use.
+   - Asset recovery plan: source cards, quote cards, method notes, next-event questions, partner follow-up, case proof, or offer signal.
    - CTA tied to the actual event: next event, reply invitation, registration, partner thanks, resource link, or collaboration opening.
 8. Draft as Markdown:
    - Use the layout rules in `references/wechat-md-layout.md` when producing final Markdown.
@@ -73,6 +81,7 @@ If the source is only a raw transcript or recording with no publication goal yet
    - Use real image paths/URLs when provided; otherwise use stable placeholders like `IMAGE_01` and descriptive alt text.
    - Keep paragraphs short enough for mobile reading.
    - Include source links or a `素材使用说明` section when external reports are used materially.
+   - When producing an infrastructure pack, include reusable outputs and asset recovery notes after the main draft.
    - Include `发布前确认` for facts, permissions, names, image choices, or links that need final approval.
 9. Run a final editorial check:
    - Is there one clear reason this article should exist?
@@ -176,4 +185,5 @@ CTA。
 - Do not copy public reports or partner articles. Paraphrase, cite, or mark as reference-only.
 - Do not use images whose publication permission is unclear without flagging them.
 - Do not imply co-hosting, endorsement, sponsorship, or partnership beyond the source material.
+- Do not turn community members into growth proof or promotional evidence without context and consent.
 - If the material is thin, draft a lighter recap and clearly mark what would make it stronger.

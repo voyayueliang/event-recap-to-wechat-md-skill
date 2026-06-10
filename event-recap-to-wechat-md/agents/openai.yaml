@@ -1,6 +1,6 @@
 interface:
   display_name: "活动转公众号 Markdown"
-  short_description: "把活动复盘、公开报道调研和图片整合成公众号图文稿"
-  default_prompt: "Use $event-recap-to-wechat-md to research public reports about this event and turn my debrief, partner notes, and selected images into a publishable WeChat Markdown draft."
+  short_description: "给活动组织者的会后内容、公开报道调研与社区记忆基础设施"
+  default_prompt: "Use $event-recap-to-wechat-md to turn an event debrief, recording, partner notes, public coverage, and selected images into a post-event content pack or WeChat Markdown draft."
 policy:
   allow_implicit_invocation: true
