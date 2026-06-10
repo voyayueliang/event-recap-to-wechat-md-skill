@@ -13,6 +13,8 @@
 - 做去 AI 味、证据校准、关系边界、图片授权和合作伙伴署名检查。
 - 区分表达轨和实验轨，避免把所有活动都写成同一种新闻稿。
 - 把每场活动回收成素材卡、问题清单、伙伴 proof、方法笔记、下一场活动选题或 offer/product signal。
+- 使用写作方法 playbook，把“先现场再观点”“证据比流畅重要”“图片进入叙事”等原则变成具体写作动作。
+- 使用人类反馈词典，把“太 AI”“不像我”“逻辑像拼贴”“有点敏感”等自然反馈翻译成具体修改策略。
 
 ## 安装
 
@@ -69,6 +71,7 @@ cp -R event-recap-to-wechat-md ~/.codex/skills/
 - 伙伴/赞助方回顾包
 - Public learning pack
 - 活动资产回收卡
+- 72 小时反馈回收卡
 
 ## 设计原则
 
@@ -80,6 +83,7 @@ cp -R event-recap-to-wechat-md ~/.codex/skills/
 - 图片是叙事结构的一部分，不是装饰。
 - 发布前要检查事实、声音、关系、隐私、图片授权和合作伙伴署名。
 - 每场活动都应该留下可复用的社区记忆，而不是只留下当日热闹。
+- 用户反馈是工作流信号，不只是审美意见。
 
 ## 文件结构
 
@@ -91,9 +95,20 @@ event-recap-to-wechat-md/
     ai-collaboration-editorial-principles.md
     community-event-infrastructure.md
     content-creation-principles.md
+    example-scenarios.md
     external-report-research.md
+    human-feedback-dictionary.md
+    output-contracts.md
     wechat-md-layout.md
+    writing-method-playbook.md
 ```
+
+## 方法论模块
+
+- `writing-method-playbook.md`: 把活动材料变成公共写作的具体动作，包括开头场景、组织者判断、公开报道整合、图片叙事、去新闻稿腔。
+- `human-feedback-dictionary.md`: 将用户自然反馈翻译成修改动作，避免只做表面润色。
+- `output-contracts.md`: 固定不同交付物的输出形态，适合活动组织者直接复用。
+- `example-scenarios.md`: 提供社区圆桌、品牌会后报道、工作坊、反馈修改、材料不足等示例。
 
 ## 备注
 

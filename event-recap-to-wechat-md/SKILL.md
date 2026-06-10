@@ -11,6 +11,12 @@ For final drafts, always apply `references/ai-collaboration-editorial-principles
 
 Also apply `references/content-creation-principles.md` for broader content creation principles: real voice, scene before concept, evidence before fluency, expression/experiment tracks, platform fit, and asset recovery.
 
+Use `references/writing-method-playbook.md` when drafting or revising substantial public copy. It turns Moon's content workbench experience into concrete writing moves: scene selection, judgment extraction, quote handling, image-led structure, public-source integration, and anti-press-release rewrites.
+
+Use `references/output-contracts.md` when the user asks for a content pack, community memory pack, partner/sponsor pack, public learning pack, feedback recovery, or any deliverable beyond a single article.
+
+Use `references/human-feedback-dictionary.md` whenever the user gives revision feedback such as "太 AI", "不像我", "太顺", "逻辑像拼贴", "有点敏感", "标题不对", or "不要写成这种形式".
+
 When the user frames the work as a tool for communities, event organizers, ecosystem builders, recurring salons, or partner-led events, apply `references/community-event-infrastructure.md`. In that mode, produce reusable event infrastructure outputs, not only a single article.
 
 When the user mentions that the event already has public reports, media coverage, partner posts, WeChat articles, official recaps, social posts, or "网上已经有人发了", use live web research and apply `references/external-report-research.md` before drafting. Current external coverage is time-sensitive; do not rely on memory.
@@ -40,6 +46,7 @@ If the source is only a raw transcript or recording with no publication goal yet
    - Images: cover candidate, scene photos, speaker photos, audience/action photos, artifacts, screenshots, posters.
    - Boundaries: public, semi-public, off-record, needs consent, anonymize, do not mention.
    - Infrastructure need: single article, 24-hour recap pack, partner/sponsor pack, community memory pack, or asset recovery pack.
+   - Feedback signals: any user wording about AI味, voice, title, logic, sensitivity, length, or output form.
 2. Ask only for blockers. If details are missing but the article can be drafted, continue and add them to `发布前确认`.
 3. Run external report research when needed:
    - Use `references/external-report-research.md` when the user says there are public reports, when the activity involves a public brand or institution such as AMD, or when facts/positioning need current verification.
@@ -49,8 +56,13 @@ If the source is only a raw transcript or recording with no publication goal yet
    - Do not let external coverage decide the user's article angle; use it to support, contrast, verify, or enrich the user's editorial backbone.
 4. Apply collaboration and editorial principles:
    - Use `references/ai-collaboration-editorial-principles.md` for AI collaboration boundaries, anti-AI-writing checks, evidence calibration, partner attribution, and cautious publishing rules.
+   - Use `references/writing-method-playbook.md` to choose concrete writing moves before drafting.
    - If the article contains strong claims, partner references, audience stories, or sensitive images, run the principle checklist before drafting and again before finalizing.
-5. Decide the best article form:
+5. Choose the output contract:
+   - Use `references/output-contracts.md` to decide whether to produce a WeChat Markdown draft, 24-hour recap pack, community memory pack, partner/sponsor pack, public learning pack, asset recovery card, or feedback recovery card.
+   - If the user asks for a single article, keep the output focused.
+   - If the user asks for infrastructure, community operations, partner proof, or reuse, return a pack rather than only an article.
+6. Decide the best article form:
    - `活动复盘报道`: what happened, why it mattered, who was there, what comes next.
    - `现场观察文`: one public insight revealed by the room, supported by scenes and quotes.
    - `方法提炼文`: turn event practice into a reusable method, checklist, or playbook.
@@ -61,13 +73,13 @@ If the source is only a raw transcript or recording with no publication goal yet
    - `会后传播包`: create one main article plus 3-5 reusable short outputs.
    - `社区记忆包`: preserve questions, scenes, learning, relationship notes, and reusable source cards for future events.
    - `伙伴/赞助方回顾包`: show partner contribution, public value, evidence, and next collaboration possibilities with careful attribution.
-6. Reconcile sources:
+7. Reconcile sources:
    - Compare partner records with the user's memory and the recording.
    - Compare public reports with the user's memory, event facts, and partner records.
    - Attribute externally published claims when they are distinctive.
    - Use short quotes only when they carry voice, evidence, or emotional weight.
    - If sources conflict, prefer the user's boundary and mark uncertainty for confirmation.
-7. Build the article before drafting:
+8. Build the article before drafting:
    - One-sentence thesis.
    - 3-5 section arc.
    - Key scene or quote for each section.
@@ -75,15 +87,16 @@ If the source is only a raw transcript or recording with no publication goal yet
    - External-source usage plan: cite, paraphrase, fact-check only, or do not use.
    - Asset recovery plan: source cards, quote cards, method notes, next-event questions, partner follow-up, case proof, or offer signal.
    - CTA tied to the actual event: next event, reply invitation, registration, partner thanks, resource link, or collaboration opening.
-8. Draft as Markdown:
+9. Draft as Markdown or package:
    - Use the layout rules in `references/wechat-md-layout.md` when producing final Markdown.
+   - Use the selected contract in `references/output-contracts.md` for multi-output packs.
    - Put images near the paragraph they support.
    - Use real image paths/URLs when provided; otherwise use stable placeholders like `IMAGE_01` and descriptive alt text.
    - Keep paragraphs short enough for mobile reading.
    - Include source links or a `素材使用说明` section when external reports are used materially.
    - When producing an infrastructure pack, include reusable outputs and asset recovery notes after the main draft.
    - Include `发布前确认` for facts, permissions, names, image choices, or links that need final approval.
-9. Run a final editorial check:
+10. Run a final editorial check:
    - Is there one clear reason this article should exist?
    - Are the strongest scenes shown before abstract conclusions?
    - Are partner references transformed and attributed rather than copied?
@@ -92,6 +105,10 @@ If the source is only a raw transcript or recording with no publication goal yet
    - Are factual claims supported by source material, or weakened into observations/questions?
    - Does AI stay in its role as editor rather than replacing the user's judgment?
    - Does the piece sound like a lived event, not a press release or generic AI recap?
+11. If the user reacts to a draft:
+   - Use `references/human-feedback-dictionary.md` to translate natural feedback into concrete edits.
+   - Do not treat "太 AI", "不像我", "敏感", or "不对劲" as surface polish requests.
+   - Re-run the relevant output contract and quality gates after major revisions.
 
 ## Output Modes
 
@@ -126,6 +143,26 @@ Use when the user asks for angles before drafting.
 ## 合作伙伴内容怎么用
 
 ## 发布风险
+```
+
+### Infrastructure Pack
+
+Use when the user asks for a community/event organizer workflow, post-event content OS, or reusable activity infrastructure. Follow `references/output-contracts.md`.
+
+```markdown
+## 会后内容基础设施包
+
+## 主稿 / 主输出
+
+## 社交短内容
+
+## 图片与素材使用
+
+## 伙伴/嘉宾/赞助方回顾
+
+## 社区记忆与资产回收
+
+## 发布前确认
 ```
 
 ### WeChat Markdown Draft
@@ -176,6 +213,7 @@ CTA。
 - Use partner materials and public reports to widen perspective, cross-check facts, and add public context.
 - Preserve Moon's voice: concrete before conceptual, field detail before trend judgment, relationship boundary before promotional enthusiasm.
 - Avoid AI-flavored transitions, promotional slogans, and overly complete frameworks unless the source supports them.
+- Use the feedback dictionary for revision requests instead of guessing what the user means.
 - Close with a soft, specific action instead of a generic slogan.
 
 ## Guardrails
