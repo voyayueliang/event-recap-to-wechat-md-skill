@@ -14,6 +14,7 @@ Use this reference to choose and format deliverables. The goal is to make the sk
 | "整理成可复用素材" | Asset Recovery Card |
 | "发布后看反馈" | 72-Hour Feedback Recovery |
 | "先判断战略叙事/组织定位/伙伴风格" | Strategic Narrative Diagnostic |
+| "调研已有报道/其他参与方/小红书或社媒体验" | Public Material Research Map |
 | unclear or risky material | Content View / Gap Card |
 
 ## Content View
@@ -73,6 +74,40 @@ Use before drafting when the user needs a partner-specific article, brand/commun
 - 推荐开头:
 - 推荐结构:
 - 发布前确认:
+```
+
+## Public Material Research Map
+
+Use before drafting when the user wants to integrate existing online material: official reports, other participant recaps, media coverage, partner posts, Xiaohongshu/Rednote notes, social posts, comments, public attendee experiences, or project/work coverage.
+
+This output should help the user decide what to use. Do not let the agent make final interpretive judgments for the user.
+
+```markdown
+## 公开资料调研地图
+
+### 资料分层
+| 类型 | 来源 | 主要内容 | 可用方式 | 可靠度 | 风险 |
+| --- | --- | --- | --- | --- | --- |
+| 官方/主办方 |  |  | 事实校准 / 官方口径 | 高 |  |
+| 合作方/参与方 |  |  | 伙伴视角 / 补充事实 | 中-高 |  |
+| 媒体/第三方 |  |  | 公共语境 / 对照角度 | 中 |  |
+| 小红书/社媒/用户体验 |  |  | 体验信号 / 问题线索 | 低-中 |  |
+
+### 已有角度
+
+### 可补充的现场/体验信号
+
+### 不建议直接采用的材料
+
+### 使用者判断层
+| 资料 | 可能说明什么 | 建议 | 需要你决定 |
+| --- | --- | --- | --- |
+
+### 下一步写法
+- 可进入正文的内容:
+- 只用于事实校准的内容:
+- 只作为选题/问题线索的内容:
+- 待确认/不用的内容:
 ```
 
 ## WeChat Markdown Draft
