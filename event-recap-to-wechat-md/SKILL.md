@@ -38,9 +38,48 @@ If the source is only a raw transcript or recording with no publication goal yet
 - Do not fabricate attendance numbers, speaker intent, audience reactions, quotes, partner positions, or future plans.
 - Preserve uncertainty, hesitation, discomfort, and relationship care when they are part of the user's real judgment.
 
+## Entry Routes
+
+Before running the full workflow, choose the user's entry route. If the user names an entry, follow it. If several entries apply, run them in this order: strategic judgment -> public research -> draft or asset pack.
+
+### Entry 1: Fast Draft
+
+Use when the user wants a publishable article now: "直接出 md", "先给我一版", "活动报道", "公众号稿", "可发布草稿".
+
+- First output: WeChat Markdown Draft.
+- Minimum input: event facts, user's debrief or notes, available images, publication boundaries.
+- Apply public research or strategic diagnosis only when needed by the material; do not slow down a simple article request with unnecessary pre-work.
+
+### Entry 2: Strategic Judgment
+
+Use when the article is for a brand, institution, community, recurring partner, sponsor, ecosystem event, or the user asks how the event should be narrated.
+
+- First output: Strategic Narrative Diagnostic or Article Direction Card, not a full draft.
+- Required reference: `references/strategic-narrative-diagnosis.md`.
+- Ask for 3-5 historical WeChat articles, event announcements, recaps, official pages, or partner copy when style fit matters.
+- Draft only after the user accepts or adjusts the strategic direction.
+
+### Entry 3: Public Research
+
+Use when the event, work, project, or public program already has official reports, media coverage, partner posts, WeChat articles, Xiaohongshu/Rednote notes, social posts, public attendee experiences, user comments, or comparable online material.
+
+- First output: Public Material Research Map.
+- Required reference: `references/external-report-research.md`.
+- Distinguish facts, public context, other-party angles, experience signals, and risks.
+- Hand interpretive choices back to the user before integrating weak, sensitive, or participant-generated material.
+
+### Entry 4: Asset Pack
+
+Use when the user asks for a reusable workflow, community memory, event organizer infrastructure, partner proof, short-content package, case asset, or material others can learn from.
+
+- First output: 24-Hour Recap Pack, Community Memory Pack, Partner/Sponsor Pack, or Asset Recovery Card.
+- Required reference: `references/output-contracts.md`; also apply `references/community-event-infrastructure.md` for community/event organizer systems.
+- Include reusable source cards, short posts, follow-up questions, partner notes, and next-event signals when the material supports them.
+
 ## Workflow
 
 1. Build an input map:
+   - Entry route: fast draft, strategic judgment, public research, or asset pack.
    - 活动事实: name, date, city/platform, format, organizers, partners, speakers, audience.
    - 用户口述: why this event mattered, what surprised them, what they want readers to remember, next action.
    - Source material: audio, transcript, notes, slides, chat logs, agenda, registration copy, partner articles/posts.

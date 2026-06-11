@@ -6,6 +6,11 @@ Use this reference to choose and format deliverables. The goal is to make the sk
 
 | User need | Contract |
 | --- | --- |
+| "我不知道该怎么开始/帮我选入口" | Entry Route Router |
+| "我只想快速出一篇活动报道" | WeChat Markdown Draft |
+| "我想先判断这场活动怎么讲" | Strategic Narrative Diagnostic |
+| "先查已有报道/小红书/社媒反馈" | Public Material Research Map |
+| "把这场活动沉淀成内容资产包" | 24-Hour Recap Pack / Community Memory Pack / Asset Recovery Card |
 | "直接出公众号 md" | WeChat Markdown Draft |
 | "活动结束 24 小时内发出去" | 24-Hour Recap Pack |
 | "给社区留下记录" | Community Memory Pack |
@@ -16,6 +21,34 @@ Use this reference to choose and format deliverables. The goal is to make the sk
 | "先判断战略叙事/组织定位/伙伴风格" | Strategic Narrative Diagnostic |
 | "调研已有报道/其他参与方/小红书或社媒体验" | Public Material Research Map |
 | unclear or risky material | Content View / Gap Card |
+
+## Entry Route Router
+
+Use before deeper work when the user is unsure which mode to run, or when several needs are mixed together.
+
+```markdown
+## 推荐入口
+
+- 建议入口:
+- 为什么:
+- 第一份输出:
+- 后续可能进入:
+
+## 四个入口对照
+
+| 入口 | 适合什么时候 | 第一份输出 | 最少需要什么 |
+| --- | --- | --- | --- |
+| 快速成稿 | 已有基本材料，想先得到可发布草稿 | WeChat Markdown Draft | 活动事实、口述/笔记、图片、边界 |
+| 战略判断 | 品牌/机构/社区/长期伙伴活动，需要先判断怎么讲 | Strategic Narrative Diagnostic | 活动目标、组织角色、历史内容参考 |
+| 公开调研 | 网上已有报道、参与方记录、社媒体验或用户评论 | Public Material Research Map | 活动/项目名称、已知线索、要查的平台 |
+| 资产包 | 想沉淀传播包、社区记忆、伙伴 proof 或复用资产 | Recap Pack / Memory Pack / Asset Recovery Card | 活动材料、目标读者、复用场景 |
+
+## 下一步
+
+- 如果用户确认入口:
+- 如果需要补充材料:
+- 如果可以直接进入工作:
+```
 
 ## Content View
 

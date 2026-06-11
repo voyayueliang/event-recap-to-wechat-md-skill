@@ -2,6 +2,15 @@
 
 Use these examples to understand how to run the workflow. They are intentionally schematic so users can adapt them to real events.
 
+## Entry Route Map
+
+| Entry | Typical user need | First output |
+| --- | --- | --- |
+| Fast Draft | "I need a publishable WeChat article now." | WeChat Markdown Draft |
+| Strategic Judgment | "This is for a brand, institution, community, sponsor, or recurring partner. We need to know how to narrate it." | Strategic Narrative Diagnostic |
+| Public Research | "There are already official reports, participant recaps, media posts, Xiaohongshu/Rednote notes, or social reactions." | Public Material Research Map |
+| Asset Pack | "This should become a reusable content pack, community memory, partner proof, or learning asset." | Recap Pack / Memory Pack / Asset Recovery Card |
+
 ## Example 1: Community Roundtable
 
 ### User Input
@@ -24,6 +33,7 @@ Use these examples to understand how to run the workflow. They are intentionally
 
 ### Agent Route
 
+- entry: Asset Pack, because the user wants one article plus short social posts
 - external report research: partner article + event page
 - output contract: 24-Hour Recap Pack
 - writing move: open with audience question
@@ -58,7 +68,9 @@ Use these examples to understand how to run the workflow. They are intentionally
 
 ### Agent Route
 
+- entry: Strategic Judgment + Public Research, because brand positioning and current public facts both matter
 - external report research: required
+- strategic narrative diagnosis: required before drafting
 - output contract: WeChat Markdown Draft + 素材使用说明
 - writing move: contrast official framing with live room question
 - evidence gate: public claims need source
@@ -88,6 +100,7 @@ Use these examples to understand how to run the workflow. They are intentionally
 
 ### Agent Route
 
+- entry: Asset Pack, because the goal is future reuse rather than immediate publication
 - output contract: Community Memory Pack
 - writing move: preserve questions and method notes
 - publication: internal memory first
@@ -110,6 +123,7 @@ Use these examples to understand how to run the workflow. They are intentionally
 
 ### Agent Route
 
+- entry: Fast Draft revision path, then feedback dictionary
 - use `human-feedback-dictionary.md`
 - identify failed layers: voice, dialogue form, over-synthesis
 - restore short quotes and Q&A texture
@@ -133,6 +147,7 @@ Use these examples to understand how to run the workflow. They are intentionally
 
 ### Agent Route
 
+- entry: Entry Route Router or Content View, because the material is too thin for a confident draft
 - do not invent a rich recap
 - output Content View / Gap Card
 - ask for organizer debrief, agenda, audience question, permission, CTA

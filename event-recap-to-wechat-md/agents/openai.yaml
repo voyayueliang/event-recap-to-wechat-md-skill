@@ -1,6 +1,6 @@
 interface:
   display_name: "活动转公众号 Markdown"
-  short_description: "给活动组织者的会后内容、公开报道调研与社区记忆基础设施"
-  default_prompt: "Use $event-recap-to-wechat-md to turn an event debrief, recording, partner notes, public coverage, and selected images into a post-event content pack or WeChat Markdown draft."
+  short_description: "从快速成稿、战略判断、公开调研或资产包入口，把活动材料变成公众号稿与内容资产"
+  default_prompt: "Use $event-recap-to-wechat-md and help me choose one entry route: fast draft, strategic judgment, public research, or asset pack. Then turn my event materials into the right WeChat article or content asset."
 policy:
   allow_implicit_invocation: true
