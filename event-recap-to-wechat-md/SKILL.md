@@ -1,6 +1,6 @@
 ---
 name: event-recap-to-wechat-md
-description: 将活动录音、活动回放、活动结束后的口述复盘、同场活动公开报道调研、合作伙伴已发布记录、现场照片、海报、截图和精选图片，整合成可发布的公众号 Markdown 图文稿、会后传播包、社区记忆包或活动组织者 AI 内容基础设施。Use when the user asks to 活动复盘转公众号, 活动录音整理成推文, 调研同一场活动已发布报道, 结合合作伙伴记录和图片出 md, 活动传播稿, 沙龙/工作坊/圆桌/直播活动纪要转公众号, 社区活动基础设施, event organizer AI infrastructure, post-event content OS, or produce publish-ready Markdown with image placement, external-source research, public-boundary checks, asset recovery, and CTA.
+description: 将活动录音、活动回放、活动结束后的口述复盘、同场公开报道调研、合作伙伴记录、历史报道风格参考和精选图片，整合成可发布公众号 Markdown 图文稿、会后传播包、社区记忆包、伙伴/赞助方回顾包或活动组织者 AI 内容基础设施。Use when the user asks to 活动复盘转公众号, 活动录音整理成推文, 调研同一场活动已发布报道, 结合合作伙伴记录和图片出 md, 做会议/活动报道, 会前预热稿, 会后报道, 品牌/社区活动传播, 战略叙事诊断, partner-specific event article, event organizer AI infrastructure, post-event content OS, or produce publish-ready Markdown with image placement, external-source research, public-boundary checks, strategic narrative diagnosis, style-reference checks, asset recovery, and CTA.
 ---
 
 # Event Recap To WeChat Markdown
@@ -16,6 +16,8 @@ Use `references/writing-method-playbook.md` when drafting or revising substantia
 Use `references/output-contracts.md` when the user asks for a content pack, community memory pack, partner/sponsor pack, public learning pack, feedback recovery, or any deliverable beyond a single article.
 
 Use `references/human-feedback-dictionary.md` whenever the user gives revision feedback such as "太 AI", "不像我", "太顺", "逻辑像拼贴", "有点敏感", "标题不对", or "不要写成这种形式".
+
+Use `references/strategic-narrative-diagnosis.md` when the event article is for a recurring partner, brand, institution, developer/community organization, sponsor, or any user asks about 战略叙事, 生态召集能力, 组织定位, 伙伴语言风格, 微信历史报道风格, style knowledge base, or partner-specific event copy. In that mode, diagnose strategic value and style references before drafting.
 
 When the user frames the work as a tool for communities, event organizers, ecosystem builders, recurring salons, or partner-led events, apply `references/community-event-infrastructure.md`. In that mode, produce reusable event infrastructure outputs, not only a single article.
 
@@ -46,23 +48,30 @@ If the source is only a raw transcript or recording with no publication goal yet
    - Images: cover candidate, scene photos, speaker photos, audience/action photos, artifacts, screenshots, posters.
    - Boundaries: public, semi-public, off-record, needs consent, anonymize, do not mention.
    - Infrastructure need: single article, 24-hour recap pack, partner/sponsor pack, community memory pack, or asset recovery pack.
+   - Strategic narrative need: ecosystem convening, industry credibility, developer/learner connection, partner relationship, brand position, conversion, public knowledge, or internal alignment.
+   - Style knowledge base: past WeChat reports, event announcements, recaps, partner announcements, website copy, registration pages, or examples that define the partner's language style.
    - Feedback signals: any user wording about AI味, voice, title, logic, sensitivity, length, or output form.
 2. Ask only for blockers. If details are missing but the article can be drafted, continue and add them to `发布前确认`.
-3. Run external report research when needed:
+3. Run strategic narrative diagnosis when needed:
+   - Use `references/strategic-narrative-diagnosis.md` for partner, brand, institution, sponsor, community, developer-ecosystem, or recurring organization articles.
+   - Identify the article's primary strategic value, target reader, organization role, event evidence, historical style references, occupied expressions, and approval constraints.
+   - If the user has no style references but asks for partner-specific language, ask for 3-5 past articles or produce only a neutral direction card first.
+   - Do not copy historical articles. Extract style, role, reader relationship, CTA patterns, and boundaries.
+4. Run external report research when needed:
    - Use `references/external-report-research.md` when the user says there are public reports, when the activity involves a public brand or institution such as AMD, or when facts/positioning need current verification.
    - Search the live web for same-event coverage using event name, organizer, partner names, speaker names, date, city, and distinctive agenda terms.
    - For WeChat Official Account sources, use a WeChat article extraction workflow when available; otherwise search for public links and cite them.
    - Build a compact source matrix: source, URL, publisher, date, useful material, how it can be used, attribution need, risk.
    - Do not let external coverage decide the user's article angle; use it to support, contrast, verify, or enrich the user's editorial backbone.
-4. Apply collaboration and editorial principles:
+5. Apply collaboration and editorial principles:
    - Use `references/ai-collaboration-editorial-principles.md` for AI collaboration boundaries, anti-AI-writing checks, evidence calibration, partner attribution, and cautious publishing rules.
    - Use `references/writing-method-playbook.md` to choose concrete writing moves before drafting.
    - If the article contains strong claims, partner references, audience stories, or sensitive images, run the principle checklist before drafting and again before finalizing.
-5. Choose the output contract:
+6. Choose the output contract:
    - Use `references/output-contracts.md` to decide whether to produce a WeChat Markdown draft, 24-hour recap pack, community memory pack, partner/sponsor pack, public learning pack, asset recovery card, or feedback recovery card.
    - If the user asks for a single article, keep the output focused.
    - If the user asks for infrastructure, community operations, partner proof, or reuse, return a pack rather than only an article.
-6. Decide the best article form:
+7. Decide the best article form:
    - `活动复盘报道`: what happened, why it mattered, who was there, what comes next.
    - `现场观察文`: one public insight revealed by the room, supported by scenes and quotes.
    - `方法提炼文`: turn event practice into a reusable method, checklist, or playbook.
@@ -73,21 +82,23 @@ If the source is only a raw transcript or recording with no publication goal yet
    - `会后传播包`: create one main article plus 3-5 reusable short outputs.
    - `社区记忆包`: preserve questions, scenes, learning, relationship notes, and reusable source cards for future events.
    - `伙伴/赞助方回顾包`: show partner contribution, public value, evidence, and next collaboration possibilities with careful attribution.
-7. Reconcile sources:
+8. Reconcile sources:
    - Compare partner records with the user's memory and the recording.
    - Compare public reports with the user's memory, event facts, and partner records.
    - Attribute externally published claims when they are distinctive.
    - Use short quotes only when they carry voice, evidence, or emotional weight.
    - If sources conflict, prefer the user's boundary and mark uncertainty for confirmation.
-8. Build the article before drafting:
+9. Build the article before drafting:
    - One-sentence thesis.
    - 3-5 section arc.
    - Key scene or quote for each section.
    - Image placement plan.
+   - Strategic narrative plan: what role/value the article proves for the organization and which event evidence supports it.
+   - Style plan: which historical style patterns to follow, which occupied phrases to avoid, and how the article should sound like this partner without copying old text.
    - External-source usage plan: cite, paraphrase, fact-check only, or do not use.
    - Asset recovery plan: source cards, quote cards, method notes, next-event questions, partner follow-up, case proof, or offer signal.
    - CTA tied to the actual event: next event, reply invitation, registration, partner thanks, resource link, or collaboration opening.
-9. Draft as Markdown or package:
+10. Draft as Markdown or package:
    - Use the layout rules in `references/wechat-md-layout.md` when producing final Markdown.
    - Use the selected contract in `references/output-contracts.md` for multi-output packs.
    - Put images near the paragraph they support.
@@ -96,8 +107,10 @@ If the source is only a raw transcript or recording with no publication goal yet
    - Include source links or a `素材使用说明` section when external reports are used materially.
    - When producing an infrastructure pack, include reusable outputs and asset recovery notes after the main draft.
    - Include `发布前确认` for facts, permissions, names, image choices, or links that need final approval.
-10. Run a final editorial check:
+11. Run a final editorial check:
    - Is there one clear reason this article should exist?
+   - Does the article make the organization's strategic role more legible without overclaiming?
+   - Does it fit the partner's historical language style without copying prior copy?
    - Are the strongest scenes shown before abstract conclusions?
    - Are partner references transformed and attributed rather than copied?
    - Are external reports used with source awareness rather than copied or over-weighted?
@@ -105,7 +118,7 @@ If the source is only a raw transcript or recording with no publication goal yet
    - Are factual claims supported by source material, or weakened into observations/questions?
    - Does AI stay in its role as editor rather than replacing the user's judgment?
    - Does the piece sound like a lived event, not a press release or generic AI recap?
-11. If the user reacts to a draft:
+12. If the user reacts to a draft:
    - Use `references/human-feedback-dictionary.md` to translate natural feedback into concrete edits.
    - Do not treat "太 AI", "不像我", "敏感", or "不对劲" as surface polish requests.
    - Re-run the relevant output contract and quality gates after major revisions.

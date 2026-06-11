@@ -13,6 +13,7 @@ Use this reference to choose and format deliverables. The goal is to make the sk
 | "这场活动生成了公共知识" | Public Learning Pack |
 | "整理成可复用素材" | Asset Recovery Card |
 | "发布后看反馈" | 72-Hour Feedback Recovery |
+| "先判断战略叙事/组织定位/伙伴风格" | Strategic Narrative Diagnostic |
 | unclear or risky material | Content View / Gap Card |
 
 ## Content View
@@ -30,6 +31,48 @@ Use before drafting when source material is long, messy, sensitive, or form is u
 - 公开边界:
 - 还缺什么:
 - 下一步:
+```
+
+## Strategic Narrative Diagnostic
+
+Use before drafting when the user needs a partner-specific article, brand/community event report, conference invitation, sponsor recap, or content that must fit an organization's historical voice.
+
+```markdown
+## 战略叙事诊断
+
+### 这篇内容的任务
+- 文章类型:
+- 首要战略价值:
+- 次要战略价值:
+- 目标读者:
+- 组织/伙伴在活动中的角色:
+
+### 这场活动要证明什么
+- 这个组织想被理解成:
+- 活动中可支撑这个判断的证据:
+- 不应过度声称的部分:
+
+### 历史内容知识库
+- 参考文章/链接:
+- 标题习惯:
+- 开头方式:
+- 读者关系:
+- 常用母题:
+- 语气:
+- CTA 习惯:
+- 避免使用的表达:
+
+### 已有公开内容
+- 已有口径:
+- 已被占用的表达:
+- 本篇可新增的角度:
+- 风险/待确认:
+
+### 推荐写法
+- 推荐主线:
+- 推荐开头:
+- 推荐结构:
+- 发布前确认:
 ```
 
 ## WeChat Markdown Draft
